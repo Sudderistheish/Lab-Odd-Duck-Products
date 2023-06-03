@@ -1,3 +1,5 @@
+'use strict';
+
 let votingArea = document.getElementById('voting'-area);
 let resultArea = document.getElementById('result-area');
 
