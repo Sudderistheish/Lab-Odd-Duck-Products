@@ -6,5 +6,7 @@ function Products(name,Src) {
     this.views = 0;
 }
 
-let dog = new Products(dogDuck,"./img/dog-duck.jpg")
-console.log(dog);
+let dogDuck = new Products("dogDuck","./img/dog-duck.jpg")
+console.log(dogDuck);
+
+dogDuckArray.push(dogDuck);
