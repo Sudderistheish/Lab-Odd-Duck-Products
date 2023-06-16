@@ -14,7 +14,7 @@ function Dogproduct(name, imgSrc) {
     this.voteCount = 0;
     this.viewcount = 0;
     
-}
+
 
  let dogDuck = new Dogproduct("dog-Duck","./img/dog-duck.jpg");
  let unicorn = new Dogproduct("unicorn","./img/unicorn.jpg");
@@ -80,7 +80,7 @@ product3.title = product3.name;
 
 setDogImages(dogArray [0], dogArray [0]);
 
-renderDogimages(dogDuck, unicorn, bubblegumdo, );
+renderDogimages(dogDuck, unicorn, bubblegum, );
 
 function handleBoxdogClick(event) {
 event.preventDefault();
@@ -99,7 +99,7 @@ for (let i=0; i<dogArray.length; i++) {
 
 }
 
-votingArea.addEventListeneraddEventListener("click"), handleDogClick;
+votingArea.addEventListeneraddEventListener("click"), 'handlebDogClick;
 
 
 
